@@ -10,7 +10,7 @@
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "jest --passWithNoTests",
+    "test": "vitest run --passWithNoTests",
     "lint": "eslint",
     "prepare": "husky",
     "ci": "npm run type-check && npm run lint && npm run test && npm run build",
@@ -21,11 +21,15 @@
     "drizzle-orm": "^0.44.6",
     "next": "15.5.4",
     "pg": "^8.16.3",
+    "prettier": "^3.6.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "run": "^1.5.0",
     "vitest": "^3.2.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -36,6 +40,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "tsx": "^4.20.6",
     "typescript": "^5"
   }
