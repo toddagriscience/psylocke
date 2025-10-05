@@ -1,21 +1,17 @@
+<!--- Copyright Todd LLC, All rights reserved -->
+
 # Psylocke
 
 This repository contains the authentication and general backend for Todd.
 
-## Quick Start
-
-Prerequisites:
-
-- Node.js: 18.0.0 or higher
-- npm: 8.0.0 or higher
-
-```bash
-npm i
-npm run dev
-```
+Please refer to `CONTRIBUTING.md` for more information on getting started.
 
 ## Specifications/Tooling
 
-- Next.js as an API framework
+- Express.js as an API framework
 - PostgreSQL + Drizzle ORM
 - Vitest for testing
+
+## Project structure
+
+TBD
