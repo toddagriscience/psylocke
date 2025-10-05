@@ -1,3 +1,5 @@
+// Copyright Todd LLC, All rights reserved.
+
 import { NextFunction, Request, Response } from 'express';
 
 var createError = require('http-errors');

@@ -1,3 +1,4 @@
+# Copyright Todd LLC, All rights reserved.
 npm run format
 npx lint-staged
 

@@ -1,3 +1,4 @@
+// Copyright Todd LLC, All rights reserved.
 export default {
   '*.ts': (stagedFiles) => [
     `eslint .`,
