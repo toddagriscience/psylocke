@@ -1,3 +1,4 @@
+# Copyright Todd LLC, All rights reserved.
 # Run CI checks before pushing to prevent broken builds
 echo "🔍 Running pre-push validation..."
 npm run validate

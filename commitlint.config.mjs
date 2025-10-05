@@ -1,5 +1,5 @@
 // Copyright Todd LLC, All rights reserved.
-module.exports = {
+export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
