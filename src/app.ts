@@ -1,5 +1,5 @@
 // Copyright Todd LLC, All rights reserved.
-import router from './routes/test.ts';
+import apiRoutesRouter from './routes/apiRoutes.ts';
 
 import express from 'express';
 import path from 'path';
@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(process.cwd(), 'public')));
-app.use(router);
+app.use(apiRoutesRouter);
 
-app.listen(8080, () => console.log('hereiam'));
+app.listen(8080, () => console.log('Online'));
 
 export default app;
