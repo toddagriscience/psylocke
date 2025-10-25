@@ -6,6 +6,10 @@ This repository contains the authentication and general backend for Todd.
 
 Please refer to `CONTRIBUTING.md` for more information on getting started.
 
+## Notes
+
+Using `@` for file paths is not supported as of 10/24/2025. Direct your complaints to Oscar Gaske (oscar.gaske.cs@gmail.com).
+
 ## Specifications/Tooling
 
 - Express.js as an API framework
