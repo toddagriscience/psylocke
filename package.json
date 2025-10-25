@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon --exec node ./src/app.ts",
+    "start": "nodemon --exec ts-node ./src/app.ts",
     "lint:fix": "eslint . --fix",
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
@@ -27,6 +27,7 @@
     "pg": "^8.16.3",
     "prettier": "^3.6.2",
     "run": "^1.5.0",
+    "ts-node": "^10.9.2",
     "vitest": "^3.2.4",
     "winston": "^3.18.3"
   },
